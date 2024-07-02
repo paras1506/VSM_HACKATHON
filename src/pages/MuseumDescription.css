@@ -1,0 +1,39 @@
+/* src/components/MuseumDescription.css */
+
+.museum-description {
+    display: flex;
+    align-items: center;
+    padding: 20px;
+    background-color: #eef1f5;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
+  .text-section {
+    flex: 1;
+    margin-right: 20px;
+  }
+  
+  .text-section h2 {
+    font-size: 2em;
+    color: #333;
+    margin-bottom: 10px;
+    align-items: center;
+    margin-bottom: 3rem;
+  }
+  
+  .text-section p {
+    font-size: 1.2em;
+    color: #333;
+  }
+  
+  .image-section {
+    flex: 1;
+  }
+  
+  .image-section img {
+    height: auto;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  }
+  
